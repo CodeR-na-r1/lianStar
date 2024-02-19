@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Lian">
+      <UniqueIdentifier>{9a06b1bb-67de-421b-8590-cb7ed0c154bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lian\Detail">
+      <UniqueIdentifier>{90f4fd21-ef62-4f15-9727-4a0de3a0d0b7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Lian\Point.hpp">
+      <Filter>Lian</Filter>
+    </ClInclude>
+    <ClInclude Include="Lian\Lian.hpp">
+      <Filter>Lian</Filter>
+    </ClInclude>
+    <ClInclude Include="Lian\Detail\Geometry.hpp">
+      <Filter>Lian\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="Lian\Detail\LianFunctions.hpp">
+      <Filter>Lian\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="Lian\Detail\Map.hpp">
+      <Filter>Lian\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="Lian\Detail\Path.hpp">
+      <Filter>Lian\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="Lian\Detail\StagePoint.hpp">
+      <Filter>Lian\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="Lian\Detail\Hasher.hpp">
+      <Filter>Lian\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="Lian\Detail\Comparator.hpp">
+      <Filter>Lian\Detail</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
