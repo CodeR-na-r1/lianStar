@@ -2,4 +2,4 @@
 
 Зависимости:
 
-- openCV is 4.x version (устанавливалась официальным установщиком (https://opencv.org/releases/))ы
+- openCV is 4.x version (устанавливалась официальным установщиком (https://opencv.org/releases/))
